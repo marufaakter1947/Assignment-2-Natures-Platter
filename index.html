@@ -13,22 +13,27 @@
     <title>Nature plate</title>
 </head>
 <body class="font-[Sora]">
-    <div class="flex justify-around font-normal text-[20px]">
-        <div class="pl-[140px] pt-[24px]">
+    <div class="flex items-center justify-between w-[100%] mx-auto font-normal text-[20px]">
+    
+        <div class="pl-[140px] pt-[24px] hidden sm:block">
             <img class="w-[154px] h-[60px] " src="assets/logo-green.png" alt="green logo of nature plate ">
         </div>
+        <div class="block sm:hidden">
+            <img src="assets/logo-white.png" alt="">
+        </div>
 
-        <div class="pt-[42px]">
+        <div class="mt-[42px] hidden sm:block">
             <a class="mr-8" href="">Product</a>
             <a class="mr-8" href="">Services</a>
             <a href="">Contact us</a>
         </div>
-        <div class="pr-[140px] pt-[42px]">
+        <div class="pr-[140px] mt-[42px] hidden sm:block">
             <i class="fa-solid fa-magnifying-glass mr-5"></i>
             <i class="fa-solid fa-cart-shopping mr-5"></i>
             <button class="mr-5 py-[10px] px-[30px] border border-green-600 rounded-[8px]">Login</button>
             <button  class="mr-5 py-[10px] px-[30px] bg-[rgb(23,152,0)] text-white rounded-[8px]">Register</button>
         </div>
+        <div class="block sm:hidden w-[30px] h-[30px]"><i class="fa-solid fa-bars"></i></div>
     </div>
 </body>
 </html>
